@@ -1,29 +1,29 @@
 # RF Spectrum Surveillance Monitor
 ### Project 1 — Crowdsourced Wideband Spectrum Surveillance
 
-Implements a complete regulator-style spectrum monitoring pipeline on the
-**ElectroSense PSD dataset** (24 MHz – 1.7 GHz, European sensors).
-
+Implements a complete regulator-style spectrum monitoring pipeline. 
+Currently tested on synthetic data.
+ElectroSense PSD dataset (24 MHz – 1.7 GHz) will be used for verification.
 ---
 
 ## Project structure
 
 ```
 rf_spectrum_surveillance/
-├── run_surveillance.py     ← Main CLI — run this
-├── download_data.py        ← Dataset downloader
-├── requirements.txt
+├── run_surveillance.py     - Main CLI 
+├── download_data.py        - Dataset downloader
+├── requirements.txt        - Requirements of the app versions needed
 │
 ├── src/
-│   ├── spectrum_monitor.py ← Core DSP: noise floor, CFAR, event grouping
-│   ├── visualize.py        ← Interactive Plotly plots
-│   └── outputs.py          ← CSV / JSON writers
+│   ├── spectrum_monitor.py - DSP part of the code
+│   ├── visualize.py        - Interactive plots
+│   └── outputs.py          - CSV / JSON writers
 │
 ├── notebooks/
-│   └── report_notebook.ipynb  ← Step-by-step reproducible analysis
+│   └── report_notebook.ipynb  - Reproducible analysis (step-by-step)
 │
-├── data/                   ← Put downloaded dataset files here
-└── outputs/                ← All results written here
+├── data/                   - Downloaded Datasets should be here
+└── outputs/                - All results will written here
 ```
 
 ---
