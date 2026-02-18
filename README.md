@@ -6,7 +6,7 @@ Currently tested on synthetic data.
 ElectroSense PSD dataset (24 MHz – 1.7 GHz) will be used for verification.
 ---
 
-![Spectrum Waterfall](assets/waterfall_preview.png)
+![Spectrum Waterfall](assets/band_waterfall.png)
 
 ## Project structure
 
