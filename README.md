@@ -28,7 +28,7 @@ rf_spectrum_surveillance/
 
 ---
 
-## Setup (5 minutes)
+## Setup
 
 ### 1. Prerequisites
 - Python 3.10 or newer
@@ -73,7 +73,7 @@ Open `outputs/band_waterfall.html` in your browser to see the interactive plot.
 
 ---
 
-## Using the real ElectroSense dataset
+## Using the real ElectroSense dataset (No Full Test Done yet)
 
 ### Step 1 — List available files
 
@@ -81,7 +81,7 @@ Open `outputs/band_waterfall.html` in your browser to see the interactive plot.
 python download_data.py --list
 ```
 
-### Step 2 — Download a file (start with index 0)
+### Step 2 — Download file, starting from index 0.
 
 ```bash
 python download_data.py --download 0
