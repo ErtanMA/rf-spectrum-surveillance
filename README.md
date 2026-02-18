@@ -1,7 +1,7 @@
 # RF Spectrum Surveillance Monitor
 ### Project 1 — Crowdsourced Wideband Spectrum Surveillance
 
-Implements a complete regulator-style spectrum monitoring pipeline. 
+Implements a complete spectrum monitoring pipeline. 
 Currently tested on synthetic data.
 ElectroSense PSD dataset (24 MHz – 1.7 GHz) will be used for verification.
 ---
