@@ -6,6 +6,8 @@ Currently tested on synthetic data.
 ElectroSense PSD dataset (24 MHz – 1.7 GHz) will be used for verification.
 ---
 
+![Spectrum Waterfall](assets/waterfall_preview.png)
+
 ## Project structure
 
 ```
@@ -146,15 +148,8 @@ python run_surveillance.py --demo --outdir results/run_01
 
 ---
 
-## Jupyter notebook (Will be added, TBD)
-
-```bash
-jupyter notebook notebooks/report_notebook.ipynb
-```
-
-The notebook walks through every step interactively with inline plots.
-
----
+> **Jupyter Notebook** — Will be added (TBD)  
+> The notebook will walk the user through every step interactively.
 
 ## Pipeline overview
 
